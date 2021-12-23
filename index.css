@@ -1,17 +1,24 @@
 @charset "UTF-8";
 .header{
-	z-index:1;
+	z-index: 1;
 }
 .body {
     height: 100vh;
     margin: 0;
-	position:absolute; top:200px; left:200px; z-index: 2; 
-    background: url(portfolio/img/lol2.jpg) #0ff
-left top repeat;
+	text-align: center;
+	z-index: 2; 
 }
-p.kadomaru1 {
-	border: 2px solid #00f;
-	border-radius: 10px;
+
+.wrapper {
+	background: url(portfolio/img/background.png);
+	background-color: rgba(0, 0, 0, 0.712);
+	background-size: contain;
+}
+
+.per {background-size: 50% 50%;}
+
+.text{
+	color: aqua;
 }
 
 p.kadomaru2 {
@@ -25,4 +32,31 @@ p.kadomaru2 {
 	width: 200px;
 	height: 60px;
 	padding: 10px;
+}
+.skill-text {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000000;
+}
+.skill-name {
+	font-size: 1.8em;
+	color: rgb(0, 0, 0)
+}
+.main-visual-text {
+	color: rgb(4, 255, 171);
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+	font-size: 1.5em;
+	display: flex;
+}
+.main-visual-title{
+	font-size: 3.4em;
+	font-weight: bold;
+	color: rgb(4, 255, 171);
+}
+.main-visual-subtitle{
+	font-size: 3em;
+	font-weight: bold;
+	color: rgb(4, 255, 171);
 }

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-	<meta name="description" content="JOHO TAROのポートフォリオサイトです" />
+	<meta name="description" content="HIKARIYA KINJIROUのポートフォリオサイトです" />
 	<title>PORTFOLIO</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -13,21 +13,32 @@
 	<link href="portfolio/css/style.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="portfolio/img/favicon.ico" />
 	<link rel="stylesheet" href="index.css" />
+	<style type = "text.css">
+	.kaiten{animation: loading 1s linear 0s infinite;}
+		@keyframes loading{
+			0%{transform: rotate(0deg);}
+			50%{transform: rotate(900deg);}
+			100%{transform: rotate(1800deg);}
+		}
+	</style>
 </head>
 
-<body>
+<body class="body">
 	<div class="wrapper">
+		<div class="per">
+		</div>
 		<!-- header -->
 		<header class="header ">
 			<div class="inner">
 				<h1 class="header-logo">
-					<a href=".">JOHO TARO</a>
+					<a href=".">HIKA</a>
 				</h1>
 				<nav class="header-nav">
 					<ul class="header-nav-list">
 						<li class="header-nav-item"><a href="#about">ABOUT</a></li>
 						<li class="header-nav-item"><a href="#works">WORKS</a></li>
 						<li class="header-nav-item"><a href="#skill">SKILL</a></li>
+						<li class="header-nav-item"><a href="#hobby">MyHobby</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -37,15 +48,19 @@
 			<!-- main-visual -->
 			<div class="main-visual" id="about">
 				<div class="main-visual-inner">
+					<p class="text">
 					<p class="main-visual-title">HIKARIYA KINJIROU</p>
-					<p class="main-visual-subtitle">MY PROFILE</p>
+					<p class="main-visual-subtitle">ブンブンハローどうもHIKAKINです</p>
+				</p>
 					<div class="main-visual-profile">
 						<p class="main-visual-img">
-							<img src="portfolio/img/profile.png" alt="自画像" />
+						<img class = "kaiten" src="portfolio/img/profile.png" alt="自画像" />
 						</p>
-						<br class="main-visual-text">
-							<p><br /><h2>どうもHIKAKINです</h2></p>
-							<a href="https://www.youtube.com/channel/UCZf__ehlCEBPop-_sldpBUQ" target="_blank"><h1>HIKAINTV毎日更新中！！！</h1></a>
+						<div class="main-visual-text">
+							<h1>HIKAINTV<a href="https://www.youtube.com/channel/UCZf__ehlCEBPop-_sldpBUQ" target="_blank">
+								<img src="HIKASAMA.png"></a>
+							毎日更新中！！！</h1>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -99,7 +114,7 @@
 								<p class="skill-text">
 									League of Legends ADCメイン 最高ランクDiamond3 
 								得意チャンピオンはルシアン・エズリアル</p>
-								<a href="https://jp.op.gg/summoner/userName=%E3%81%82%E3%81%9A%E3%82%8A%E3%82%85%E3%83%BC%E3%81%A8" target="_blank">わしの戦績です </a>
+								<a href="https://jp.op.gg/summoner/userName=%E3%81%82%E3%81%9A%E3%82%8A%E3%82%85%E3%83%BC%E3%81%A8" target="_blank"><h1>わしの戦績です</h1></a>
 							</div>
 						</div>
 						<div class="skill-item">
