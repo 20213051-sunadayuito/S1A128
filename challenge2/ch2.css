@@ -13,8 +13,8 @@ body {
   padding: 40px;
 }
 .wrapper {
-  background: #f9f8ee;
-  width: 800px;
+  background: #ccc039;
+  width: 1200px;
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
@@ -39,12 +39,13 @@ main
 ----------------------------*/
 main {
   color: #504643;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
-h2 { margin-bottom: 20px; }
-p { margin-bottom: 1em; }
+h2 { margin-bottom: 120px; }
+p { margin-bottom: 2em; }
 em {
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-weight: bold;
   color: #196f6a;
 }
@@ -52,3 +53,16 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+body {
+  background: url(wood.jpg) #504643;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  flex: 1 1 20%;
+}
